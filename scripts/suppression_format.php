@@ -13,7 +13,7 @@ Pour me contacter en cas de besoin : julie_meunier44@yahoo.fr -->
 					<?php
 						// Connexion à MySQL
 						mysql_connect("localhost", "root", "" );
-						mysql_select_db("imprimantes_livet" );
+						mysql_select_db("nom_base" );
 	
 						// Requête sur la table choisie
 						$reponse = mysql_query("SELECT * FROM format_imprimante ORDER BY format" ); // Requête pour faire appel à la table "format_imprimante", et trier par ordre alphabétique
@@ -53,7 +53,7 @@ Pour me contacter en cas de besoin : julie_meunier44@yahoo.fr -->
 		define('DB_SERVER', 'localhost'); // serveur mysql
 		define('DB_SERVER_USERNAME', 'root'); // nom d utilisateur
 		define('DB_SERVER_PASSWORD', ''); // mot de passe
-		define('DB_DATABASE', imprimantes_livet); // nom de la base
+		define('DB_DATABASE', nom_base); // nom de la base
 
 		// Connexion au serveur mysql
 		$connect = mysql_connect(DB_SERVER, DB_SERVER_USERNAME, DB_SERVER_PASSWORD) or die('Impossible de se connecter : ' . mysql_error());

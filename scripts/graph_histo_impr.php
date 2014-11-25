@@ -3,13 +3,13 @@
 // Ce code a été écrit par Julie Meunier dans le cadre d'un stage au Lycée Livet
 // Pour me contacter en cas de besoin : julie_meunier44@yahoo.fr 
 
-include ("./jpgraph/src/jpgraph.php");
-include ("./jpgraph/src/jpgraph_bar.php");
+include ("./jpgraph/src/jpgraph.php"); //A mofifier
+include ("./jpgraph/src/jpgraph_bar.php"); //A mofidier
 
 define('MYSQL_HOST', 'localhost');
 define('MYSQL_USER', 'root');
 define('MYSQL_PASS', '');
-define('MYSQL_DATABASE', 'imprimantes_livet');
+define('MYSQL_DATABASE', 'nom_base');
 
 // Création des tableaux Date et Compteurs
 $tableauDate = array();

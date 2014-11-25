@@ -17,7 +17,7 @@ Pour me contacter en cas de besoin : julie_meunier44@yahoo.fr -->
           //Connexion à la BDD
           try
           {
-            $bdd = new PDO('mysql:host=localhost;dbname=imprimantes_livet', 'root', '');
+            $bdd = new PDO('mysql:host=localhost;dbname=nom_base', 'root', '');
           }
           catch (Exception $e)
           {

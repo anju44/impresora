@@ -4,11 +4,11 @@
 // Pour me contacter en cas de besoin : julie_meunier44@yahoo.fr 
 
 mysql_connect('localhost', 'root', '');
-mysql_select_db('imprimantes_livet');
+mysql_select_db('nom_base');
 
 mysql_query("TRUNCATE TABLE compteurs");
 
-$repertoire = '/script_python/historique/';
+$repertoire = '/examples/'; // Aller chercher le répertoire où se trouve les fichiers csv
 
 // On récupère tous les fichiers du dossier passé dans la variable repertoire
 $MesFichiers = scandir($repertoire);

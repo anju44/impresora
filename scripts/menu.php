@@ -26,7 +26,7 @@ Pour me contacter en cas de besoin : julie_meunier44@yahoo.fr -->
 					<?php
 					// Connexion à MySQL
 					mysql_connect("localhost", "root", "" );
-					mysql_select_db("imprimantes_livet" );
+					mysql_select_db("nom_base" );
 	
 					// Requête sur la table choisie
 					$reponse = mysql_query("SELECT * FROM imprimantes ORDER BY nom_imprimante" ); // Requête pour faire appel à la table "imprimantes", et trier par ordre alphabétique
