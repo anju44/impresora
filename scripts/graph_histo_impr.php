@@ -3,8 +3,8 @@
 // Ce code a été écrit par Julie Meunier dans le cadre d'un stage au Lycée Livet
 // Pour me contacter en cas de besoin : julie_meunier44@yahoo.fr 
 
-include ("./jpgraph/src/jpgraph.php"); //A mofifier
-include ("./jpgraph/src/jpgraph_bar.php"); //A mofidier
+include ("./jpgraph/src/jpgraph.php"); //A modifier
+include ("./jpgraph/src/jpgraph_bar.php"); //A modifier
 
 define('MYSQL_HOST', 'localhost');
 define('MYSQL_USER', 'root');
@@ -55,7 +55,7 @@ $compteur = <<<EOF
 			   FROM compteurs)
 EOF;
 
-// Connexion à la base de donnée
+// Connexion à la base de données
 $mysqlCnx = @mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASS) or die('Problème de connexion mysql');
 
 @mysql_select_db(MYSQL_DATABASE) or die('Problème de sélection de la base');
